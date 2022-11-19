@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-inner-pages">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <h1 class="logo"><a href="index.html">My Website</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto" href="./index.html">Home</a></li>
+                    <li><a class="nav-link scrollto" href="./about.html">About</a></li>
+                    <li><a class="nav-link scrollto" href="./resume.html">Resume</a></li>
+                    <li><a class="nav-link scrollto active" href="labs.html">Labs</a></li>
+                    <li><a class="nav-link scrollto" href="./result.html">Result</a></li>
+                    <li><a class="nav-link scrollto" href="./contact.html">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+            <h3 style="display: flex;align-items: center;font-weight: 600;">LABS</h3>
+        </div>
+
+
+        <div id="item-labs">
+            <div class="container">
+                <!--tab -->
+                <ul class="nav nav-pills justify-content-center  wow fadeInUp">
+                    <li class=" nav-item">
+                        <a class="nav-link" id="lab1-tab" href="lab1.html" style="font-weight: bold;">
+                            Lab 1
+                        </a>
+                    </li>
+                    <li class="nav-item space">
+                        <a class="nav-link active" id="lab2-tab" href="lab2.html" style="font-weight: bold;">
+                            Lab 2
+                        </a>
+                    </li>
+                    <li class="nav-item space">
+                        <a class="nav-link" id="lab3-tab" href="lab3.html" style="font-weight: bold;">
+                            Lab 3
+                        </a>
+                    </li>
+                    <li class="nav-item space">
+                        <a class="nav-link" id="lab4-tab" href="lab4.html" style="font-weight: bold;">
+                            Lab 4
+                        </a>
+                    </li>
+                    <li class="nav-item space">
+                        <a class="nav-link" id="lab4-tab" href="lab5.html" style="font-weight: bold;">
+                            Lab 5
+                        </a>
+                    </li>
+                </ul>
+                <!--end  tab-->
+
+                <!--tab content-->
+                <div class="tab_content  wow fadeInUp">
+                    <div class="tab-pane fade show active tab-border" id="lab1">
+                        <nav class="nav nav-pills justify-content-center" role="tablist">
+                            <a class="nav-link active" id="lab1-tab-item1" data-bs-toggle="tab" href="#lab1-requirement"
+                                aria-selected="true" role="tab">Requirement</a>
+                            <a class="nav-link space" id="lab1-tab-item2" data-bs-toggle="tab" href="#lab1-userScenario"
+                                aria-selected="false" tabindex="-1" role="tab">User Scenario</a>
+                            <a class="nav-link space" id="lab1-tab-item2" data-bs-toggle="tab" href="#lab1-design"
+                                aria-selected="false" tabindex="-1" role="tab">Design</a>
+                            <a class="nav-link space" id="lab1-tab-item3" data-bs-toggle="tab" href="#lab1-implement"
+                                aria-selected="false" tabindex="-1" role="tab">Implement</a>
+                        </nav>
+                        <div class="tab_content">
+                            <div class="tab-pane fade show active tab-item-border" id="lab1-requirement" role="tabpanel"
+                                aria-labelledby="#lab1-tab-item1">
+                                <div id="requirementab" class="container tab-pane active"><br>
+                                    <p>(1) Tạo ra một <b> user scenario</b>. <br>(2) Chọn 1 bước trong <b> user
+                                            scenario</b> để thiết kế 1 form giao diện Web trên công cụ thiết kế đã
+                                        chọn. Sau đó tạo ra file html tương ứng cho thiết kế này. <br> Upload lên
+                                        Azure
+                                        / github: trong file html có chèn hình ảnh của <b> user scenario</b> ở (1)
+                                        và đường dẫn của file thiết kế ở (2).</p>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade show tab-item-border" id="lab1-userScenario" role="tabpanel"
+                                aria-labelledby="#lab1-tab-item2">
+                                <img src="./assets/Labs/Lab2/lab2_scenario.png" alt="" style="width:80%;">
+                            </div>
+
+                            <div class="tab-pane fade show tab-item-border" id="lab1-design" role="tabpanel"
+                                aria-labelledby="#lab1-tab-item2">
+                                <div class="text" style="text-align: center;">
+                                    <div class="lab1-img">
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <div style="padding-left: 10px;">
+                                            <img src="./assets/Labs/Lab2/lab2.jpg" !important="" alt="">
+                                            <img src="./assets/Labs/Lab2/lab2_fig.jpg" alt="" style="width: 31%;">
+                                        </div>
+                                        <div style="display: flex; justify-content: center;">
+                                            <div class="lab-button">
+                                                <a class="border-lab-button" href="./assets/Labs/Lab2/lab2.jpg"
+                                                    download="./assets/Labs/Lab2/lab2.jpg" target="_blank">Download</a>
+                                            </div>
+                                            <div class="lab-button">
+                                                <a class="border-lab-button" href="./assets/Labs/Lab2/lab2_fig.jpg"
+                                                    download="./assets/Labs/Lab2/lab2_fig.jpg"
+                                                    target="_blank">Download</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <div class="lab-button">
+                                        <a class="border-lab-button"
+                                            href="https://www.figma.com/file/xLkG3afeQfpMI6r03FwpKW/Labs?node-id=1%3A2"
+                                            target="_blank">Go to Figma</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade show tab-item-border" id="lab1-implement" role="tabpanel"
+                                aria-labelledby="#lab1-tab-item3">
+                                <div class="tab-pane active" role="tabpanel" id="tab-11">
+                                    <div class="booklogo">
+                                        <h1>Anime</h1>
+                                    </div>
+
+                                    <div class="bct">
+
+                                        <div class="bookcontainer">
+
+                                            <aside id="sidebar" class="sidebar">
+
+
+                                            </aside>
+
+                                            <div>
+                                                <div class="column">
+                                                    <div class="bookrow">
+                                                        <img src="./assets/Labs/Lab2/3084-1657774875.jpg" width="100%">
+                                                        <div class="boo">
+                                                            <h5>Nhất niệm vĩnh hằng</h5>
+                                                            <div>
+                                                                <span>Số tập: </span>16
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bookrow">
+                                                        <img src="./assets/Labs/Lab2/3559-1657788192.jpg" width="100%">
+                                                        <div class="boo">
+                                                            <h5>Thần mộ</h5>
+                                                            <div>
+                                                                <span>Số tập: </span>24
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bookrow">
+                                                        <img src="./assets/Labs/Lab2/3565-1658731352.jpg" width="100%">
+                                                        <div class="boo">
+                                                            <h5>Tru tiên</h5>
+                                                            <div>
+                                                                <span>Số tập: </span>12
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bookrow">
+                                                        <img src="./assets/Labs/Lab2/3605-1664852972.jpg" width="100%">
+                                                        <div class="boo">
+                                                            <h5>Tinh vực</h5>
+                                                            <div>
+                                                                <span>Số tập: </span>24
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="bookrow">
+                                                        <img src="./assets/Labs/Lab2/3626.jpg" width="100%">
+                                                        <div class="boo">
+                                                            <h5>Bleach</h5>
+                                                            <div>
+                                                                <span>Số tập: </span>24
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="bookrow">
+                                                        <img src="./assets/Labs/Lab2/3628.jpg" width="100%">
+                                                        <div class="boo">
+                                                            <h5>Chainsaw Man</h5>
+                                                            <div>
+                                                                <span>Số tập: </span>24
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div>
+                                                    <ul class="pagination">
+                                                        <li class="page-item"><a class="page-link" href="#">Previous</a>
+                                                        </li>
+                                                        <li class="page-item"><a class="page-link" href="#">1</a>
+                                                        </li>
+                                                        <li class="page-item active"><a class="page-link" href="#">2</a>
+                                                        </li>
+                                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">Next</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Footer ======= -->
+
+    <footer id="footer" style="margin-top: 700px;">
+
+        <div class="container">
+            <div class="copyright">
+                © Copyright <strong><span></span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/hidayah-free-simple-html-template-for-corporate/ -->
+                Designed by <a href="">Me</a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+    <style>
+        #lab1-implement {
+            overflow: scroll;
+            height: 650px;
+        }
+
+        .page-link {
+            color: #428bca;
+        }
+
+        .active>.page-link,
+        .page-link.active {
+            z-index: 3;
+            color: #fff;
+            background-color: #428bca;
+            border-color: #428bca;
+        }
+    </style>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
