@@ -1,0 +1,9 @@
+#lab1-implement,
+#lab1-ex2-implement {
+    overflow: scroll;
+    height: 600px;
+}
+
+.container.aos-init.aos-animate h3::after {
+    top: 145px;
+}

@@ -1,0 +1,20 @@
+#lab1-implement {
+    overflow: scroll;
+    height: 650px;
+}
+
+.page-link {
+    color: #428bca;
+}
+
+.active>.page-link,
+.page-link.active {
+    z-index: 3;
+    color: #fff;
+    background-color: #428bca;
+    border-color: #428bca;
+}
+
+.container.aos-init.aos-animate h3::after {
+    top: 145px;
+}

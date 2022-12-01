@@ -1,0 +1,36 @@
+.containers {
+    overflow: scroll;
+    height: 700px;
+    margin-top: 68px;
+}
+
+nav#templateux-navbar {
+    position: absolute;
+    top: 130px;
+    max-width: 1099px;
+    left: 40px;
+}
+
+.containers a.nav-link.active {
+    background-color: unset !important;
+}
+
+button.btn.btn-primary.btn-block.text-white {
+    border-color: #ff0000;
+}
+
+.container.aos-init.aos-animate h3::after {
+    top: 35px;
+}
+
+#item-labs .tab_content .tab-pane img {
+    width: 100% !important;
+}
+
+.block-32.aos-init.aos-animate form {
+    margin-left: 70px;
+}
+
+div#templateux-navbar-nav {
+    margin-left: 52px;
+}
